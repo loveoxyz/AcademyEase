@@ -7,9 +7,12 @@ uses
 
 type
   TdmUsers = class(TDataModule)
-    conUsers: TADOConnection;
+    conAcademyEase: TADOConnection;
     dsrUsers: TDataSource;
     tblUsers: TADOTable;
+    tblChat: TADOTable;
+    dsrChat: TDataSource;
+    qryChat: TADOQuery;
   private
     { Private declarations }
   public

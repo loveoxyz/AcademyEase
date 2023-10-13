@@ -1,36 +1,55 @@
 object dmUsers: TdmUsers
   OldCreateOrder = False
-  Height = 331
-  Width = 477
-  object conUsers: TADOConnection
+  Height = 217
+  Width = 284
+  object conAcademyEase: TADOConnection
     Connected = True
     ConnectionString = 
       'Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Us' +
-      'ers\User\OneDrive\Documents\School shit\Delphi\Grade 11 PAT\PAT ' +
-      '2\src\beta\Database\MySchool.mdb;Mode=ReadWrite;Persist Security' +
-      ' Info=False;Jet OLEDB:System database="";Jet OLEDB:Registry Path' +
-      '="";Jet OLEDB:Database Password="";Jet OLEDB:Engine Type=5;Jet O' +
-      'LEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2' +
-      ';Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Pas' +
-      'sword="";Jet OLEDB:Create System Database=False;Jet OLEDB:Encryp' +
-      't Database=False;Jet OLEDB:Don'#39't Copy Locale on Compact=False;Je' +
-      't OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False'
+      'ers\joshb\OneDrive\Documents\RAD Studio\Projects\AcademyEase!\Ac' +
+      'ademyEase.mdb;Mode=ReadWrite;Persist Security Info=False;Jet OLE' +
+      'DB:System database="";Jet OLEDB:Registry Path="";Jet OLEDB:Datab' +
+      'ase Password="";Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locki' +
+      'ng Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global B' +
+      'ulk Transactions=1;Jet OLEDB:New Database Password="";Jet OLEDB:' +
+      'Create System Database=False;Jet OLEDB:Encrypt Database=False;Je' +
+      't OLEDB:Don'#39't Copy Locale on Compact=False;Jet OLEDB:Compact Wit' +
+      'hout Replica Repair=False;Jet OLEDB:SFP=False'
     LoginPrompt = False
     Mode = cmReadWrite
     Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 40
-    Top = 48
+    Left = 32
+    Top = 72
   end
   object dsrUsers: TDataSource
     DataSet = tblUsers
-    Left = 168
-    Top = 40
+    Left = 144
+    Top = 72
   end
   object tblUsers: TADOTable
-    Connection = conUsers
-    CursorType = ctStatic
+    Connection = conAcademyEase
     TableName = 'tblUsers'
-    Left = 104
-    Top = 104
+    Left = 88
+    Top = 72
+  end
+  object tblChat: TADOTable
+    Active = True
+    Connection = conAcademyEase
+    CursorType = ctStatic
+    TableName = 'tblChat'
+    Left = 88
+    Top = 136
+  end
+  object dsrChat: TDataSource
+    DataSet = tblChat
+    Left = 144
+    Top = 136
+  end
+  object qryChat: TADOQuery
+    Connection = conAcademyEase
+    DataSource = dsrChat
+    Parameters = <>
+    Left = 200
+    Top = 136
   end
 end

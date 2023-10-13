@@ -5,7 +5,7 @@ interface
 type
   tUser = class(TObject)
   private
-    fUsername, fFirstname, fSurname, fEmail, fPassword : String;
+    fFirstname, fSurname, fUsername, fEmail, fPassword : String;
   public
     constructor Create(sUser, sName, sSurname, sEmail, sPassword : String);
 
@@ -42,9 +42,9 @@ begin
 result := fEmail;
 end;
 
-function TUser.GetFirstName: String;
+function TUser.GetFirstname: String;
 begin
-result := fFirstName;
+result := fFirstname;
 end;
 
 function TUser.GetPassword: String;
@@ -57,9 +57,9 @@ begin
 result := fSurname;
 end;
 
-function TUser.GetUsername: String;
+function tUser.GetUsername: String;
 begin
-result := fUsername;
+  result := fUsername;
 end;
 
 function tUser.SetEmail(sEmail: String): String;
@@ -67,9 +67,9 @@ begin
   sEmail := fEmail;
 end;
 
-function tUser.SetFirstName(sFirstName: String): String;
+function tUser.SetFirstname(sFirstName: String): String;
 begin
-  sFirstName := fFirstName;
+  sFirstname := fFirstname;
 end;
 
 function tUser.SetPassword(sPassword: String): String;

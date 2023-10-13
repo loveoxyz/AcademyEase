@@ -1,0 +1,11 @@
+id;username;message;time
+1;johndoe123;Hey, how's it going?;2023-08-30 10:15:00
+2;janesmith456;Hi there! I'm doing well, thanks.;2023-08-30 10:20:00
+3;alexjohns789;Hey, any plans for the weekend?;2023-08-30 11:30:00
+4;lisawilliams;Not much, just relaxing at home.;2023-08-30 12:45:00
+5;michaelbrown;Anyone up for a game tonight?;2023-08-30 14:00:00
+6;emilyjones890;Sure, I'm in!;2023-08-30 14:10:00
+7;davidlee123;I'm up for it too!;2023-08-30 14:12:00
+8;oliviawils987;Count me in as well.;2023-08-30 14:15:00
+9;danieltaylor21;Sorry, I can't tonight. Maybe next time!;2023-08-30 14:30:00
+10;sophiaevans34;Sounds fun! I'll join too.;2023-08-30 14:45:00

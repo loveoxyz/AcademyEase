@@ -1,0 +1,14 @@
+id:username:firstname:surname:email:password
+1:oxy:Josh:Maytham:josh@brokenheartsquard.dev:josh@12345
+2:thicdaddy27:Thato:Malinga:thato.malinga@gmail.com:thato@12345
+3:LandMine:Trinity:DuToit:trinity@gmail.com:trinity@12345
+4:johndoe123:John:Doe:john@example.com:password123
+5:janesmith456:Jane:Smith:jane@example.com:secure456789
+6:alexjohns789:Alex:Johnson:alex@example.com:test789012
+7:lisawilliams:Lisa:Williams:lisa@example.com:1234word5678
+8:michaelbrown:Michael:Brown:michael@example.com:sample567890
+9:emilyjones890:Emily:Jones:emily@example.com:password890123
+10:davidlee123:David:Lee:david@example.com:hello123456
+11:oliviawils987:Olivia:Wilson:olivia@example.com:secret987654
+12:danieltaylor21:Daniel:Taylor:daniel@example.com:testing321456
+13:sophiaevans34:Sophia:Evans:sophia@example.com:dummy234567
