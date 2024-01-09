@@ -32,15 +32,24 @@ object dmUsers: TdmUsers
     Left = 88
     Top = 72
   end
-  object tblInventory: TADOTable
+  object tblChat: TADOTable
+    Active = True
     Connection = conAcademyEase
-    TableName = 'tblInventory'
+    CursorType = ctStatic
+    TableName = 'tblChat'
     Left = 88
     Top = 136
   end
-  object dsrInventory: TDataSource
-    DataSet = tblInventory
+  object dsrChat: TDataSource
+    DataSet = tblChat
     Left = 144
+    Top = 136
+  end
+  object qryChat: TADOQuery
+    Connection = conAcademyEase
+    DataSource = dsrChat
+    Parameters = <>
+    Left = 200
     Top = 136
   end
 end

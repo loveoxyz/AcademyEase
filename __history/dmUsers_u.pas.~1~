@@ -10,8 +10,9 @@ type
     conAcademyEase: TADOConnection;
     dsrUsers: TDataSource;
     tblUsers: TADOTable;
-    tblInventory: TADOTable;
-    dsrInventory: TDataSource;
+    tblChat: TADOTable;
+    dsrChat: TDataSource;
+    qryChat: TADOQuery;
   private
     { Private declarations }
   public
